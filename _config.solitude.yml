@@ -16,10 +16,11 @@
 # Site information
 # 网站信息
 site:
-  name:
-    class: text # text / i_class / img
-    custom: Solitude # Solitude / fas fa-ghost / /img/pwa/favicon.ico
-  icon: /img/pwa/favicon.ico # Site icon / 网站图标
+ name:
+  class: ACGURL
+  custom: Solitude 
+siteIcon: /ico/favicon.ico
+icon: /ico/favicon.ico
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -29,68 +30,53 @@ nav:
   # Left Box
   # 左侧盒子
   group:
-  #  project: # name
-  #    Solitude: https://github.com/everfu/hexo-theme-solitude || /img/pwa/favicon.ico # name: url || icon
-
+   联系方式:
+    QQ: https://wpa.qq.com/msgrd?v=3&uin=1485942570&site=qq&menu=yes&jumpflag=1 || /ico/QQ.svg
+    B站: https://space.bilibili.com/3493083985480649 || /ico/bilibili.svg
   # Menu
   # 菜单
   menu:
-    # Home: / # name: link
-    # Article: # name
-    #   Archives: /archives/ || fas fa-folder-closed # item name: link || icon
-    #   Categories: /categories/ || fas fa-clone
-    #   Tags: /tags/ || fas fa-tags
-    # Friends:
-    #   Moments: /moments/ || fas fa-wifi
-    #   Links: /links/ || fas fa-user-group
-    #   Treasure: javascript:travelling() || fas fa-gift
-    # Myself:
-    #   Equipment: /equipment/ || fas fa-laptop
-    #   Toobox: /tlink/ || fas fa-toolbox
-    #   Music: /music/ || fas fa-music
-    # About: /about/
-
   # Right button
   # 右侧按钮
   right:
-    random: false # Random article / 随机文章按钮
+    random: true # Random article / 随机文章按钮
     custom:
-    #  - name: Start # name
-    #    url: https://www.travellings.cn/go.html # Jump link
-    #    icon: fas fa-train # Icon
-    #    onclick: # Click event
-    #    id: travellings_button # id
+      - name: Start # name
+        url: https://www.travellings.cn/go.html # Jump link
+        icon: fas fa-train # Icon
+        onclick: # Click event
+        id: travellings_button # id
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
 # Home Top Banner
 # 首页顶部
 hometop:
-  enable: false
+  enable: true
   banner:
-    title: # Tranquility <br>and love life / 宁静致远 <br> 热爱生活 # Title
+    title:  Tranquility <br>and love life / 宁静致远 <br> 热爱生活 # Title
     url: Hexo Theme Solitude
     icon:
-      # HTML: # name
-      #   img: https://i.postimg.cc/vBWVnY8q/html.png # url
-      #   color: "#e9572b" # color
-      # JS:
-      #   img: https://i.postimg.cc/3N10Ltv2/js.png
-      #   color: "#f7cb4f"
-      # Docker:
-      #   img: https://i.postimg.cc/8Pk6Fg24/docker.png
-      #   color: "#57b6e6"
-      # Flutter:
-      #   img: https://i.postimg.cc/hPC7T3gB/flutter.png
-      #   color: "#ffffff"
-      # WebPack:
-      #   img: https://i.postimg.cc/dVLZBmtT/webpack.png
-      #   color: "#2e3a41"
-      # Git:
-      #   img: https://i.postimg.cc/nhgjwjCS/git.png
-      #   color: "#df5b40"
+       HTML: # name
+         img: https://i.postimg.cc/vBWVnY8q/html.png # url
+         color: "#e9572b" # color
+       JS:
+         img: https://i.postimg.cc/3N10Ltv2/js.png
+         color: "#f7cb4f"
+       Docker:
+         img: https://i.postimg.cc/8Pk6Fg24/docker.png
+         color: "#57b6e6"
+       Flutter:
+         img: https://i.postimg.cc/hPC7T3gB/flutter.png
+         color: "#ffffff"
+       WebPack:
+         img: https://i.postimg.cc/dVLZBmtT/webpack.png
+         color: "#2e3a41"
+       Git:
+         img: https://i.postimg.cc/nhgjwjCS/git.png
+         color: "#df5b40"
   group:
-    # 热门: /tags/Fire/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
+     热门: /tags/Fire/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
   recommendList:
     sup: 置顶
     title: Solitude 官方文档
@@ -100,7 +86,7 @@ hometop:
 
 # Article Top Banner
 # 文章推荐轮播图
-carousel: false
+carousel: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -130,14 +116,14 @@ aside:
   card:
     style: 0 # 0: default 1: style 1 2: style 2
     author:
-      img: /img/avatar.avif # url
+      img: /ico/favicon.ico # url
       sticker: # url, 24x24 size
     url: /about/ # link / 点击头像跳转链接
     background: # https://s3.qjqq.cn/47/663af296b85f4.webp!color # Background image(Invalid if style is 0)
     # Content(Invalid if style is 0)
     # 内容(Style 0 无效)
-    content: # 这是我的博客 / This is my Blog
-    content2: # 一个热爱生活的人 / A person who loves life
+    content:  这是我的博客 / This is my Blog
+    content2:  一个热爱生活的人 / A person who loves life
     # Style 2 is invalid
     # Style 2 无效
     sayhello:
@@ -155,8 +141,8 @@ aside:
     # social
     # 社交信息图标
     information:
-    #  Github: https://github.com/everfu || fab fa-github # Name: link || icon
-    #  Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
+      Github: https://github.com/acgurl || /ico/github.svg # Name: link || icon
+      Bilibili: https://space.bilibili.com/34930839854806492 || /ico/bilibili.svg
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
@@ -183,7 +169,7 @@ aside:
   # 文章目录
   toc:
     post: true
-    page: false
+    page: true
     vague: true
   # --------------------------- end ---------------------------
 
@@ -191,7 +177,7 @@ aside:
   # Tags
   # 标签
   tags:
-    enable: false
+    enable: true
     limit: 20 # Number of tags displayed
     # Highlighted tags
     highlight_list:
@@ -202,7 +188,7 @@ aside:
   # Archive
   # 归档
   archive:
-    enable: false
+    enable: true
     type: "month" # month: by month / year: by year
   # --------------------------- end ---------------------------
 
@@ -215,7 +201,7 @@ aside:
     postcount: true
     # Total number of words
     # 总字数
-    wordcount: false
+    wordcount: true
     # PV
     pv: true
     # UV
@@ -301,23 +287,23 @@ post:
   meta:
     # Release date
     # 发布日期
-    date: false
+    date: true
     # Update date
     # 更新日期
-    updated: false
+    updated: true
     # Location
     # 位置
-    locate: false
+    locate: true
     # Number of words
     # 字数
-    wordcount: false
+    wordcount: true
     # uv
-    readtime: false
+    readtime: true
     # pv
-    pv: false
+    pv: true
     # Comment count
     # 评论数
-    comment: false
+    comment: true
   # Reward
   # 打赏
   award:
@@ -338,22 +324,22 @@ post:
   # Share icon
   # 分享图标
   share:
-    enable: false
+    enable: true
     list:
-      # - qq
-      # - weibo
-      # - twitter
-      # - facebook
-      # - telegram
-      # - whatsapp
-      # - linkedin
-      # - link
-      # - qrcode
-  rss: # /atom.xml
+       - qq
+       - weibo
+       - twitter
+       - facebook
+       - telegram
+       - whatsapp
+       - linkedin
+       - link
+       - qrcode
+  rss:  /atom.xml
   # Article reading progress
   # 文章封面取色
   covercolor:
-    enable: false
+    enable: true
     # local: local color / api: api color / ave: oss average color
     mode: local
     # api address / api 地址
@@ -361,8 +347,8 @@ post:
     # Storage / 缓存时间
     time: 43200000
   footer:
-    enable: false
-    desc: # Articles from Ever Fu. / 文章来自 Ever Fu # description
+    enable: true
+    desc:  Articles from ACGURL. # description
     button: # Button
       enable: true
       name: # Learn more / 了解更多
@@ -382,17 +368,17 @@ theme_color:
 display_mode:
   # auto: automatic switching(Recognize the current theme mode of the device) / dark: dark mode / light: light mode
   # auto: 自动切换（识别设备当前主题模式） / dark: 深色模式 / light: 浅色模式
-  type: auto
+  type: dark
   # After opening, the dark mode will display the starry sky background
   # 开启后深色模式会显示星空背景
-  universe: false
+  universe: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
 # Related articles
 # 相关文章
 related_post:
-  enable: false
+  enable: true
   limit: 2
   # created: release date / updated: update date
   # created: 发布日期 / updated: 更新日期
@@ -405,12 +391,12 @@ related_post:
 footer:
   # Information social icon
   information:
-    author: false # img url / false
+    author: true # img url / false
     left:
-      # Github: https://github.com/everfu || fab fa-github # Name: link || icon
-      # Mail: mailto:o@efu.me || fab fa-envelope
+       Github: https://github.com/acgurl || fab fa-github # Name: link || icon
+       Mail: mailto:i@acgurl.link || fab fa-envelope
     right:
-      # Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
+       Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
       # Douyin: https://v.douyin.com/iJsLc8jt/ || fab fa-tiktok
   group:
     # Navigation:
@@ -769,11 +755,11 @@ giscus:
 # Console
 # 控制台
 console:
-  enable: false
+  enable: true
   # Recent comments
   # 最新评论
   recentComment:
-    enable: false
+    enable: true
     # Cache time 1: 1 day / .5 : half a day
     # 缓存时间 1: 1天 / .5 : 半天
     storage: .2
@@ -837,14 +823,14 @@ extends:
 # PWA
 # Progressive Web App
 pwa:
-  enable: false
+  enable: true
   manifest: /manifest.json # manifest.json
   theme_color: "#006a73" # Theme color
-  mask_icon: /img/pwa/favicon.png # Mask icon
-  apple_touch_icon: /img/pwa/favicon.png # Apple touch icon
-  bookmark_icon: /img/pwa/favicon.png # Bookmark icon
-  favicon_32_32: /img/pwa/favicon_32.png # 32x32 icon
-  favicon_16_16: /img/pwa/favicon_16.png # 16x16 icon
+  mask_icon: /pwa/logo.png # Mask icon
+  apple_touch_icon: /pwa/apple-touch-icon.png # Apple touch icon
+  bookmark_icon: /pwa/logo.png # Bookmark icon
+  favicon_32_32: /pwa/32.png # 32x32 icon
+  favicon_16_16: /pwa/16.png # 16x16 icon
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -878,34 +864,34 @@ google_adsense:
 # Custom right menu
 # 自定义右键菜单
 right_menu:
-  enable: false
+  enable: true
   # Whether to display the hot comment switch.
   # 是否显示热门评论开关
-  commentBarrage: false
+  commentBarrage: true
   # Simplified and Traditional Chinese translation.
   # 简繁体转换
   translate:
-    enable: false
+    enable: true
     defaultEncoding: 2 # 1: 默认繁体 2: 默认简体
     translateDelay: 0 # 首次加载翻译迟疑时间
   # Custom list
   # 自定义列表
   custom_list:
-    # - name: Random
-    #   click: toRandomPost()
-    #   id: menu-randomPost
-    #   class:
-    #   icon: fas fa-tower-broadcast
-    # - name: Categories
-    #   click: pjax.loadUrl('/categories/') # External links with window.open, pjax can not request cross-domain content.
-    #   id:
-    #   class:
-    #   icon: fas fa-clone
-    # - name: Tags
-    #   click: pjax.loadUrl('/tags/')
-    #   id:
-    #   class:
-    #   icon: fas fa-tags
+     - name: 随机文章
+       click: toRandomPost()
+       id: menu-randomPost
+       class:
+       icon: fas fa-tower-broadcast
+     - name: 分类
+       click: pjax.loadUrl('/categories/') # External links with window.open, pjax can not request cross-domain content.
+       id:
+       class:
+       icon: fas fa-clone
+     - name: 标签
+       click: pjax.loadUrl('/tags/')
+       id:
+       class:
+       icon: fas fa-tags
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -913,11 +899,11 @@ right_menu:
 # Turn the entire site gray on memorable days.
 # 在纪念日整个网站变灰
 memorial:
-  enable: false
+  enable: true
   date:
-  #  - 7-7
-  #  - 9-18
-  #  - 12-13 # 国家公祭日
+    - 7-7
+    - 9-18
+    - 12-13 # 国家公祭日
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -934,8 +920,8 @@ lure:
 # Article expiration
 # 文章过期
 expire:
-  enable: false
-  time: 30 # days
+  enable: true
+  time: 60 # days
   position: top # top / bottom
   text_prev: "This article expired "
   text_next: " day ago, if the content does not match, please contact the webmaster to update it."
@@ -956,7 +942,7 @@ background:
 # 非必要请勿修改
 CDN:
   internal: local # local / cdnjs / jsdelivr / unpkg / custom
-  third_party: cdnjs # cdnjs / jsdelivr / unpkg / custom
+  third_party: unpkg # cdnjs / jsdelivr / unpkg / custom
   version: true # Whether to use the version number
   custom_format: //open.lightxi.com/cdnjs/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file} # Custom format
   # Directly override the default CDN link (highest priority)

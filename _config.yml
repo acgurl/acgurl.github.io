@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: ACGURL
+subtitle: '以世界之名'
+description: '技术分享站,资源收集,个人博客'
+keywords: 技术分享站,资源收集,个人博客,ACGURL,二次元,动漫,编程
+author: ACGURL
 language: zh-CN
-timezone: ''
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://acgurl.us.kg
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -100,7 +100,3 @@ theme: solitude
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: git@github.com:acgurl/acgurl.github.io.git
-  branch: main
