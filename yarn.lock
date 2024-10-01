@@ -887,10 +887,10 @@ hexo-theme-landscape@^1.0.0:
   resolved "https://registry.npmmirror.com/hexo-theme-landscape/-/hexo-theme-landscape-1.0.0.tgz"
   integrity sha512-bWQJWMqQI78wWiJPQZq5pJBH20TM442ShCaHGRetuEgMraxH0OKxB3NTupJzNEkzEk8DV2yrdizkXdKN6i501A==
 
-hexo-theme-solitude@^2.0.13:
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/hexo-theme-solitude/-/hexo-theme-solitude-2.0.13.tgz#3c14505fd4e32306af0f890ebb851ad1594d55fc"
-  integrity sha512-PbnFj3yFRKdJQhzHIOCFYe4VOlV6Y1inm0yKbhbOxz3AbMqpZ2pIhwhhLv8L7PgNZ9dghdyvn6TpIHL8fHv/Sg==
+hexo-theme-solitude@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/hexo-theme-solitude/-/hexo-theme-solitude-2.1.1.tgz#d1d93f9430c2e3ce75646d72c4bbc1570acbf911"
+  integrity sha512-nk/F2mb9YslRt2/dnHgMShPvU0ypa6HwTFxxQXS0AsOibUpRCASZ0ujSiNLYkwweAWJAhRi3He66gKpAnSqpqQ==
   dependencies:
     hexo-renderer-pug "^3.0.0"
     hexo-renderer-stylus "^3.0.0"
@@ -908,7 +908,7 @@ hexo-util@^3.0.1, hexo-util@^3.1.0, hexo-util@^3.3.0:
     prismjs "^1.29.0"
     strip-indent "^3.0.0"
 
-hexo@^7.3.0, "hexo@3.x || 4.x || 5.x || 6.x || 7.x":
+hexo@^7.3.0:
   version "7.3.0"
   resolved "https://registry.npmmirror.com/hexo/-/hexo-7.3.0.tgz"
   integrity sha512-dOe8mzBKrvjubW5oBmyhcnQDpC+M2xmAMLae5K+o+SkHxyvAhShkS2VQZoTsOLIJKY6xilv7dzCjCvE7ol/NHQ==
