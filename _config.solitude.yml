@@ -554,7 +554,7 @@ lazyload:
 loading:
   # Full screen loading
   # 全屏加载
-  fullpage: false
+  fullpage: true
   # Pace loading
   # Pace 加载
   pace: true
@@ -593,23 +593,23 @@ mediumZoom: false # mediumZoom
 
 # --------------------------- start ---------------------------
 # Mermaid
-mermaid: false
+mermaid: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
 # Chart.js
-chart: false
+chart: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
 # typeit
-typeit: false
+typeit: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
 # OpenGraph
 OpenGraph:
-  enable: false
+  enable: true
   options:
     # twitter_card:
     # twitter_image:
@@ -625,12 +625,12 @@ OpenGraph:
 # 字数统计
 # warning: Please install the hexo-wordcount plugin first.
 # 警告: 请先安装 hexo-wordcount 插件。
-wordcount: false
+wordcount: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
 # Busuanzi
-busuanzi: false
+busuanzi: true
 # 0: Original / 1: Custom
 # 0: 原版 / 1: 自定义版
 busuanzi_use: 0
@@ -678,13 +678,13 @@ post_ai:
 # Latex formula support
 # Latex 公式支持
 katex:
-  enable: false
+  enable: true
   # Whether to load on each page
   # 是否在每个页面加载
   per_page: false
   # Whether to enable copy formula
   # 是否启用复制公式
-  copytex: false
+  copytex: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -693,18 +693,18 @@ katex:
 comment:
   # Which commenting system to use(e.g. waline or waline,twikoo)
   # 使用哪个评论系统（例如： waline or waline,twikoo）
-  use: # waline, twikoo, valine, artalk, giscus # Up to two comment systems can be turned on at the same time
+  use: twikoo
   # Whether to display the hot comment switch.
   # 是否显示热门评论开关
-  commentBarrage: false
+  commentBarrage: true
   # Lazy load
   # 懒加载评论区
-  lazyload: false
+  lazyload: true
   # Whether to display the comment count
   # 显示评论数
-  count: false
+  count: true
   # PV
-  pv: false
+  pv: true
   # Avatar
   avatar: https://gravatar.com/avatar
   # Hot comment tips
@@ -715,7 +715,7 @@ comment:
     count: 3
 # Twikoo: https://solitude.js.org/comment/twikoo
 twikoo: # https://twikoo.js.org/
-  envId: # url: https://twikoo.sondy.top/
+  envId: https://twikoo.acgurl.link/
   region: # Environment locale, default is ap-shanghai, Tencent cloud environment fill ap-shanghai or ap-guangzhou; Vercel environment do not fill the.
   style: true # Use custom styles when turned on
   accessToken: # AccessToken

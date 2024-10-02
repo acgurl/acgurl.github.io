@@ -35,6 +35,18 @@
         "purpose": "maskable"
     },
     {
+        "src": "pwa/48.png",
+        "sizes": "32x32",
+        "type": "image/png",
+        "purpose": "any"
+    },
+    {
+        "src": "pwa/48.png",
+        "sizes": "32x32",
+        "type": "image/png",
+        "purpose": "maskable"
+    },
+    {
         "src": "pwa/64.png",
         "sizes": "64x64",
         "type": "image/png",
