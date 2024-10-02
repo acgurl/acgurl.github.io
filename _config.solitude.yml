@@ -81,7 +81,7 @@ hometop:
     sup: 置顶
     title: Solitude 官方文档
     url: https://solitude.js.org/
-    img: /img/default.avif
+    img: /ico/logo.png
     color: "none"
 
 # Article Top Banner
@@ -812,8 +812,6 @@ extends:
   # 插入到 head
   head:
     #- <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
-    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
-
   # Insert in body
   # 插入到 body
   body:
@@ -942,15 +940,15 @@ background:
 # Do not modify unless necessary
 # 非必要请勿修改
 CDN:
-  internal: cdnjs # local / cdnjs / jsdelivr / unpkg / custom
-  third_party: jsdelivr # cdnjs / jsdelivr / unpkg / custom
+  internal: unpkg # local / cdnjs / jsdelivr / unpkg / custom
+  third_party: cdnjs # cdnjs / jsdelivr / unpkg / custom
   version: true # Whether to use the version number
   custom_format: //open.lightxi.com/cdnjs/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file} # Custom format
   # Directly override the default CDN link (highest priority)
   options:
     # algolia_search:
     # instantsearch:
-    # pjax:
+     pjax:https://cdn.bootcdn.net/ajax/libs/pjax/0.2.8/pjax.min.js
     # twikoo:
     # waline_js:
     # waline_css:
