@@ -394,23 +394,23 @@ footer:
     author: true # img url / false
     left:
        Github: https://github.com/acgurl || fab fa-github # Name: link || icon
-       Mail: mailto:i@acgurl.link || fab fa-envelope
+       Mail: mailto:i@acgurl.link || fas fa-envelope
     right:
        Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
       # Douyin: https://v.douyin.com/iJsLc8jt/ || fab fa-tiktok
   group:
-    # Navigation:
-    #   Archives: /archives/
-    #   Categories: /categories/
-    #   Tags: /tags/
-    # Arrangement:
-    #   Cookies: /cookies/
-    #   Privacy: /privacy/
-    #   Copyright: /copyright/
+     Navigation:
+       Archives: /archives/
+       Categories: /categories/
+       Tags: /tags/
+     Arrangement:
+       Cookies: /cookies/
+       Privacy: /privacy/
+       Copyright: /copyright/
 
   # Random link
   # 随机友链
-  randomlink: false # Random link
+  randomlink: true # Random link
   # License
   license: # https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh # License
 
@@ -421,8 +421,8 @@ footer:
   links:
     - name: Theme
       url: https://github.com/everfu/hexo-theme-solitude
-    # - name: RSS
-    #   url: /atom.xml
+    - name: RSS
+      url: /atom.xml
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -475,7 +475,7 @@ envelope:
 # Music Page
 meting_api: "https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r" # Custom API
 music:
-  enable: false
+  enable: true
   # 歌单 ID / 单曲 ID
   id: 1994908354
   # 服务商：netease / qq / xiami / kugou / baidu
@@ -485,11 +485,11 @@ music:
   # 默认音量
   volume: 0.8
   # 是否自动播放
-  mutex: true
+  mutex: false
 # Capsule music
 # 音乐胶囊
 capsule:
-  enable: false
+  enable: true
   # 歌单 ID / 单曲 ID
   id: 8407304077
   # 服务商：netease / qq / xiami / kugou / baidu
@@ -504,20 +504,20 @@ capsule:
 # 快捷菜单
 # 使用 shift + ? 打开
 keyboard:
-  enable: false
+  enable: true
   list:
-    # - name: Close Keyboard
-    #   key: K
-    #   func: keyboard
-    # - name: Open Console
-    #   key: A
-    #   sco: showConsole
-    # - name: Play/Pause Music
-    #   key: M
-    #   sco: musicToggle
-    # - name: Open Links
-    #   key: L
-    #   url: /links/
+     - name: Close Keyboard
+       key: K
+       func: keyboard
+     - name: Open Console
+       key: A
+       sco: showConsole
+     - name: Play/Pause Music
+       key: M
+       sco: musicToggle
+     - name: Open Links
+       key: L
+       url: /links/
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
