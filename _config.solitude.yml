@@ -19,8 +19,8 @@ site:
  name:
   class: ACGURL
   custom: Solitude 
-siteIcon: /ico/favicon.ico
-icon: /ico/favicon.ico
+siteIcon: /img/pwa/favicon.ico
+icon: /img/pwa/favicon.ico
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -81,7 +81,7 @@ hometop:
     sup: 置顶
     title: Solitude 官方文档
     url: https://solitude.js.org/
-    img: /ico/logo.png
+    img: /img/pwa/logo.png
     color: "none"
 
 # Article Top Banner
@@ -116,7 +116,7 @@ aside:
   card:
     style: 0 # 0: default 1: style 1 2: style 2
     author:
-      img: /ico/favicon.ico # url
+      img: /img/pwa/favicon.ico # url
       sticker: # url, 24x24 size
     url: /about/ # link / 点击头像跳转链接
     background: # https://s3.qjqq.cn/47/663af296b85f4.webp!color # Background image(Invalid if style is 0)
@@ -715,7 +715,7 @@ comment:
     count: 3
 # Twikoo: https://solitude.js.org/comment/twikoo
 twikoo: # https://twikoo.js.org/
-  envId: https://twikoo.acgurl.link/
+  envId: https://twikoo.acgurl.link/.netlify/functions/twikoo
   region: # Environment locale, default is ap-shanghai, Tencent cloud environment fill ap-shanghai or ap-guangzhou; Vercel environment do not fill the.
   style: true # Use custom styles when turned on
   accessToken: # AccessToken
@@ -822,14 +822,14 @@ extends:
 # PWA
 # Progressive Web App
 pwa:
-  enable: true
+  enable: false
   manifest: /manifest.json # manifest.json
   theme_color: "#006a73" # Theme color
-  mask_icon: /pwa/logo.png # Mask icon
-  apple_touch_icon: /pwa/apple-touch-icon.png # Apple touch icon
-  bookmark_icon: /pwa/logo.png # Bookmark icon
-  favicon_32_32: /pwa/32.png # 32x32 icon
-  favicon_16_16: /pwa/16.png # 16x16 icon
+  mask_icon: /img/pwa/logo.png # Mask icon
+  apple_touch_icon: /img/pwa/apple-touch-icon.png # Apple touch icon
+  bookmark_icon: /img/pwa/logo.png # Bookmark icon
+  favicon_32_32: /img/pwa/32.png # 32x32 icon
+  favicon_16_16: /img/pwa/16.png # 16x16 icon
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -842,16 +842,16 @@ google_adsense:
   auto_ads: false
   # Page-level ads
   # 页面级广告
-  enable_page_level_ads: true
+  enable_page_level_ads: false
   # Sidebar card ads
   # 侧边栏卡片广告
-  aside_card: true
+  aside_card: false
   # Post card ads
   # 文章卡片广告
-  post_card: true
+  post_card: false
   # Post content ads
   # 文章内容广告
-  post_content: true
+  post_content: false
   # Google Adsense js
   # 谷歌广告 js
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
@@ -937,10 +937,23 @@ background:
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
+# Right-Sidebar
+# 右下角悬停导航栏
+rightside:
+  enable: true
+  percent: true
+  hide:
+    enable: true
+    translate: true
+    mode: true
+    aside: true
+# --------------------------- start ---------------------------
+
+# --------------------------- start ---------------------------
 # Do not modify unless necessary
 # 非必要请勿修改
 CDN:
-  internal: unpkg # local / cdnjs / jsdelivr / unpkg / custom
+  internal: jsdelivr # local / cdnjs / jsdelivr / unpkg / custom
   third_party: cdnjs # cdnjs / jsdelivr / unpkg / custom
   version: true # Whether to use the version number
   custom_format: //open.lightxi.com/cdnjs/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file} # Custom format
@@ -948,7 +961,7 @@ CDN:
   options:
     # algolia_search:
     # instantsearch:
-     pjax:https://cdn.bootcdn.net/ajax/libs/pjax/0.2.8/pjax.min.js
+    # pjax:
     # twikoo:
     # waline_js:
     # waline_css:
