@@ -691,64 +691,29 @@ katex:
 # Comment
 # 评论
 comment:
-  # Which commenting system to use(e.g. waline or waline,twikoo)
   # 使用哪个评论系统（例如： waline or waline,twikoo）
   use: twikoo
-  # Whether to display the hot comment switch.
   # 是否显示热门评论开关
   commentBarrage: true
-  # Lazy load
   # 懒加载评论区
   lazyload: true
-  # Whether to display the comment count
   # 显示评论数
   count: true
   # PV
-  pv: true
+  pv: false
   # Avatar
   avatar: https://gravatar.com/avatar
-  # Hot comment tips
   # 热评提示
   hot_tip:
-    enable: false
+    enable: true
     # Number of hot comments
     count: 3
-# Twikoo: https://solitude.js.org/comment/twikoo
-twikoo: # https://twikoo.js.org/
+twikoo:
   envId: https://twikoo.acgurl.link/.netlify/functions/twikoo
-  region: # Environment locale, default is ap-shanghai, Tencent cloud environment fill ap-shanghai or ap-guangzhou; Vercel environment do not fill the.
+  region: 
   style: true # Use custom styles when turned on
-  accessToken: # AccessToken
+  accessToken: 1727944998
   option: # twikoo option
-# Waline: https://solitude.js.org/comment/waline
-waline: # https://waline.js.org/
-  envId: # url: https://waline.wzsco.top
-  pageview: false # Whether to enable page access statistics
-  option: # waline configuration item
-# Valine: https://solitude.js.org/comment/valine
-valine:
-  appId: # leancloud application app id
-  appKey: # leancloud application app key
-  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  avatar: # https://valine.js.org/avatar.html
-  visitor: false
-  style: true # Use custom styles when turned on
-  option: # options list
-# Artalk: https://solitude.js.org/comment/artalk
-# Artalk: https://solitude.js.org/zh/comment/artalk
-artalk:
-  server: # server url
-  site: # site name
-  option: # options
-# Giscus: https://solitude.js.org/comment/giscus
-giscus:
-  repo: # GitHub repository name
-  repo_id: # GitHub repository ID
-  category_id: # GitHub repository category ID
-  theme:
-    light: light
-    dark: dark
-  option:
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -822,7 +787,7 @@ extends:
 # PWA
 # Progressive Web App
 pwa:
-  enable: false
+  enable: true
   manifest: /manifest.json # manifest.json
   theme_color: "#006a73" # Theme color
   mask_icon: /img/pwa/logo.png # Mask icon
