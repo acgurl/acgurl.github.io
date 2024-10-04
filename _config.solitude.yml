@@ -249,7 +249,7 @@ page:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-      # - /img/default.png # 默认图片 / default cover
+       - https://api.acgurl.link/ysh.php?style=@.webp
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -263,7 +263,7 @@ post:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-      # -  # 默认图片 / default cover
+       -  https://api.acgurl.link/ysh.php?style=@.webp
     # Location
     # 位置
     locate: China
@@ -449,7 +449,7 @@ says:
 # Recent comments Page
 # 最近评论页面
 recent_comments:
-  enable: false
+  enable: true
   limit: 50 # ⚠️waline 仅支持最大50条评论 / ⚠️waline only supports a maximum of 50 comments
   cache: 0.2 # 1 = 1天 / 1 = 1 day
   page: /recentcomments/ # 最近评论页面 / recent comments page
@@ -460,7 +460,7 @@ recent_comments:
 # Danmaku Page
 # 弹幕留言页面
 envelope:
-  enable: false
+  enable: true
   line: 10 # 显示行数
   speed: 20 # 播放速度
   hover: true # 鼠标悬停暂停
@@ -539,7 +539,7 @@ copy:
 # Lazyload
 # 图片懒加载
 lazyload:
-  enable: false
+  enable: true
   # post, site
   field: site
   # 加载时替换图
@@ -554,7 +554,7 @@ lazyload:
 loading:
   # Full screen loading
   # 全屏加载
-  fullpage: false
+  fullpage: true
   # Pace loading
   # Pace 加载
   pace: true
