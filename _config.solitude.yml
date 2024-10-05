@@ -81,7 +81,7 @@ hometop:
     sup: 置顶
     title: Solitude 官方文档
     url: https://solitude.js.org/
-    img: /img/pwa/logo.png
+    img: https://api.acgurl.link/ysh.php?style=@75q.webp
     color: "none"
 
 # Article Top Banner
@@ -257,63 +257,47 @@ page:
 # 文章默认设置
 post:
   default:
-    # The cover of the article is displayed
     # 文章封面显示
     top_cover: true
-    # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
        -  https://api.acgurl.link/ysh.php?style=@.webp
-    # Location
     # 位置
     locate: China
-    # Copyright
     # 版权
     copyright:
       enable: true
       author:
         url: /about/ # Author link
-        # Default use site.icon
         # 默认使用 site.icon
         img:
-      # License
       # 许可证
       license: CC BY-NC-SA 4.0
-      # License link
       # 许可证链接
       licenurl: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh
-  # Article meta information
   # 文章元信息
   meta:
-    # Release date
     # 发布日期
     date: true
-    # Update date
     # 更新日期
     updated: true
-    # Location
     # 位置
     locate: true
-    # Number of words
     # 字数
     wordcount: true
     # uv
     readtime: true
     # pv
     pv: true
-    # Comment count
     # 评论数
     comment: true
-  # Reward
   # 打赏
   award:
     enable: false
     appreciators: /about/ # Reward page
-    # Reward Title
     # 打赏标题
     title: # Thanks for your appreciation. / 感谢您的赞赏
     desc: # Because of your support, I realize the value of writing articles. / 由于您的支持，我才能够实现写作的价值。
-    # Reward list
     # 打赏列表
     list:
       # - name: Github Sponsor
@@ -321,7 +305,6 @@ post:
       #   url: https://github.com/sponsors/everfu
       #   color: var(--efu-black)
 
-  # Share icon
   # 分享图标
   share:
     enable: true
@@ -336,7 +319,6 @@ post:
        - link
        - qrcode
   rss:  /atom.xml
-  # Article reading progress
   # 文章封面取色
   covercolor:
     enable: true
@@ -363,7 +345,6 @@ theme_color:
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
-# display mode
 # 显示模式
 display_mode:
   # auto: automatic switching(Recognize the current theme mode of the device) / dark: dark mode / light: light mode
@@ -375,7 +356,6 @@ display_mode:
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
-# Related articles
 # 相关文章
 related_post:
   enable: true
@@ -386,7 +366,6 @@ related_post:
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
-# Footer
 # 页脚
 footer:
   # Information social icon
@@ -539,7 +518,7 @@ copy:
 # Lazyload
 # 图片懒加载
 lazyload:
-  enable: true
+  enable: false
   # post, site
   field: site
   # 加载时替换图
