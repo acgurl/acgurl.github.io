@@ -1,0 +1,31 @@
+<svg width="108" height="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-label="ACGURL: 下班啦" role="img">
+ <title>ACGURL: 下班啦</title>
+ <defs>
+  <linearGradient y2="100%" x2="0" id="a">
+   <stop stop-opacity="0" stop-color="#fcfcfc" offset="0"/>
+   <stop stop-opacity="0.1" offset="1"/>
+  </linearGradient>
+ </defs>
+ <style>a:hover #llink{fill:url(#b);stroke:#ccc}a:hover #rlink{fill:#4183c4}</style>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="22" width="110" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1" stroke="#d5d5d5">
+   <rect id="svg_2" rx="2" height="19" width="60" y="0.5" x="0.5" fill="#fcfcfc"/>
+   <rect id="svg_3" fill="#fafafa" rx="2" height="19" width="41" y="0.5" x="66.5"/>
+   <rect id="svg_4" stroke="#fafafa" height="5" width="0.5" y="7.5" x="66"/>
+   <path id="svg_5" fill="#fafafa" stroke="d5d5d5" d="m66.5,6.5l-3,3l0,1l3,3"/>
+  </g>
+  <image id="svg_6" xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNDBBRUYwIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+MTAwMVRyYWNrbGlzdHM8L3RpdGxlPjxwYXRoIGQ9Ik05LjQyMiAxMC43MjNoLTEuMzV2My44MDdoMi40NTh2LTQuMDQ4aDIuOTR2NC4zMzdoLTEuMzV2MS4zNWgtMS4zNDl2Mi40NThoMi40NTh2LTIuN2gyLjY5OXYtNS4yMDRoLTEuMzV2LTEuMzVIOS40MjJ6bTEuMzUgMTEuOTUyaDIuNDU3di0yLjQ1OEgxMC43N3YyLjQ1OHptLTIuNjc2LTIwSDYuNzQ3djEuMzVoLTEuMzV2MS4zNDhINC4wNDl2MS4zNWgtMS4zNXY2LjY5OUgxLjM1djEuMzVIMHYyLjQ1N2gxLjM1djEuMzVoMS4zNDl2MS4zNDloMi40NTh2LTcuODU2aC0xLjM1di00LjI0aDEuMzV2LTEuMzVoMS4zNDl2LTEuMzVoMS4zNVYzLjc4NGg4LjI4OXYxLjM1aDEuMzQ5djEuMzQ5aDEuMzV2MS4zNWgxLjM0OXY0LjI0aC0xLjM1djcuODU2aDIuNDU4di0xLjM1aDEuMzV2LTEuMzVIMjR2LTIuNDU3aC0xLjM1di0xLjM1aC0xLjM0OVY2LjcyNGgtMS4zNXYtMS4zNWgtMS4zNDlWNC4wMjRoLTEuMzQ5di0xLjM1aC0xLjM1VjEuMzI2SDguMDk3djEuMzVaIi8+PC9zdmc+" height="14" width="14" y="3" x="5"/>
+  <g id="svg_7" line-height="14px" font-size="110px" font-weight="700" text-rendering="geometricPrecision" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" text-anchor="middle" fill="#333" aria-hidden="true" stroke="null">
+   <rect rx="2" height="19" width="60" y="0.5" x="0.5" fill="url(#a)" id="llink" stroke="#d5d5d5"/>
+   <text id="svg_8" textLength="330" transform="scale(0.10000000149011612) " fill="#fff" y="150" x="385" aria-hidden="true" stroke="null">ACGURL</text>
+   <text id="svg_9" textLength="400" transform="scale(0.10000000149011612) " y="140" x="385" stroke="null">ACGURL</text>
+   <text id="svg_10" textLength="330" transform="scale(0.10000000149011612) " fill="#fff" y="150" x="865" aria-hidden="true" stroke="null">下班啦</text>
+   <text textLength="330" transform="scale(0.10000000149011612) " y="140" x="865" id="rlink" stroke="null">下班啦</text>
+  </g>
+ </g>
+</svg>

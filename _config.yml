@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://acgurl.us.kg
+url: https://acgurl.us.kg/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -52,7 +52,7 @@ highlight:
   hljs: false
 prismjs:
   preprocess: true
-  line_number: true
+  line_number: false
   tab_replace: ''
 
 # Home page setting
@@ -96,7 +96,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: solitude
+theme: anzhiyu
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+
+swpp:
+  # 是否启用插件
+  enable: true
+  # 是否在发布前自动执行脚本
+  # auto_exec: true
