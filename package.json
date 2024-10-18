@@ -31,7 +31,7 @@
     "hexo-theme-landscape": "^1.0.0",
     "hexo-theme-solitude": "^2.1.4",
     "hexo-wordcount": "^6.0.1",
-    "swpp-backends": "^3.0.0-alpha.431"
+    "swpp-backends": "^3.0.0-alpha.441"
   },
   "devDependencies": {
     "compress": "^0.99.0",

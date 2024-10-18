@@ -4302,10 +4302,10 @@ sver@^1.8.3:
   optionalDependencies:
     semver "^6.3.0"
 
-swpp-backends@^3.0.0-alpha.431:
-  version "3.0.0-alpha.431"
-  resolved "https://registry.npmmirror.com/swpp-backends/-/swpp-backends-3.0.0-alpha.431.tgz"
-  integrity sha512-eP8rED/Lv1RCTZdJZxT4zDDgOmJVtMKLkebG+SjlYLKhK9DGhtezRBsefH1DqiQGBWxRCCYdCuH9lFt+Dx5BhQ==
+swpp-backends@^3.0.0-alpha.441:
+  version "3.0.0-alpha.441"
+  resolved "https://registry.yarnpkg.com/swpp-backends/-/swpp-backends-3.0.0-alpha.441.tgz#762d9f28cd245e94d0c385e5c445cd9424f498e5"
+  integrity sha512-+gFKSPtF19096hZz4fBwjGegm4J4sfaiXTchc4gKm6qobEV8GdoKeGTdc5ZncXKmPrUI1OrPfdhtUtbC+SzWpA==
   dependencies:
     commander "^12.1.0"
     jiti "^2.0.0-beta.3"
