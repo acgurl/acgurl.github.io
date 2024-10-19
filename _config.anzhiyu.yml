@@ -29,7 +29,7 @@ nav:
     - title: 静态博客
       item:
         - name: Hexo
-          link: https://acgurl.us.kg/
+          link: https://hexo.acgurl.link/
           icon: /img/pwa/favicon.ico
     - title: 动态博客
       item:
@@ -972,7 +972,7 @@ lazyload:
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
 pwa:
-  enable: true
+  enable: false
   startup_image_enable: true
   manifest: /manifest.json
   theme_color: var(--anzhiyu-main)
@@ -987,7 +987,7 @@ pwa:
 Open_Graph_meta: true
 
 # Add the vendor prefixes to ensure compatibility
-css_prefix: true
+css_prefix: false
 
 # 首页顶部相关配置
 home_top:
