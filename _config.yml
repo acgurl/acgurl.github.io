@@ -109,31 +109,52 @@ swpp:
   
 # 追番插件
 # https://github.com/HCLonely/hexo-bilibili-bangumi
-bangumi: # 追番设置
-  enable: true
+cinema: # 追剧设置
   source: bili
-  path:
+  bgmInfoSource: 'bgmv0'
+  enable: true
+  path: bangumis/index.html
   vmid: 3493083985480649
-  title: "追番列表"
-  quote: "生命不息，追番不止！"
+  title: '追剧列表'
+  quote: '生命不息，追剧不止！'
   show: 1
   lazyload: false
+  srcValue: '__image__'
+  lazyloadAttrName: 'data-src=__image__'
   loading:
-  showMyComment: false
-  pagination: false
+  metaColor:
+  color:
+  webp: true
+  progress:
+  progressBar:
+  extraOrder:
+  order: -score
+  extra_options:
+    key: value
+  coverMirror:
+game: # 游戏设置，仅支持source: bgmv0
+  enable: false
+  path:
+  source: bgmv0
+  vmid:
+  title: '游戏列表'
+  quote: '生命不息，游戏不止！'
+  show: 1
+  lazyload: true
+  srcValue: '__image__'
+  lazyloadAttrName: 'data-src=__image__'
+  loading:
   metaColor:
   color:
   webp:
   progress:
+  progressBar:
   extraOrder:
-  proxy:
-    host: "代理host"
-    port: "代理端口"
+  order:
   extra_options:
-    top_img: false
-    lazyload:
-      enable: false
-      
+    key: value
+  coverMirror:
+
 #envelope_comment
 #seehttps://akilar.top/posts/e2d3c450/
 envelope_comment:
