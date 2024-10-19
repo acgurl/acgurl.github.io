@@ -75,14 +75,14 @@ author_status:
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
   skills:
-    # - 🤖️ 数码科技爱好者
-    # - 🔍 分享与热心帮助
-    # - 🏠 智能家居小能手
-    # - 🔨 设计开发一条龙
-    # - 🤝 专修交互与设计
-    # - 🏃 脚踏实地行动派
-    # - 🧱 团队小组发动机
-    # - 💢 壮汉人狠话不多
+     - 🤖️ 数码科技爱好者
+     - 🔍 分享与热心帮助
+     - 🏠 智能家居小能手
+     - 🔨 设计开发一条龙
+     - 🤝 专修交互与设计
+     - 🏃 脚踏实地行动派
+     - 🧱 团队小组发动机
+     - 💢 壮汉人狠话不多
 
 # search (搜索)
 # see https://blog.anheyu.com/posts/c27d.html#搜索系统
@@ -141,7 +141,7 @@ favicon: /img/pwa/favicon.ico
 # Avatar (头像)
 avatar:
   img: /img/pwa/logo.png
-  effect: false
+  effect: true
 
 # Disable all banner image
 disable_top_img: false
@@ -322,56 +322,12 @@ comments:
   count: true # Display comment count in post's top_img
   card_post_count: true # Display comment count in Home Page
 
-# valine
-# https://valine.js.org
-valine:
-  appId: xxxxx # leancloud application app id
-  appKey: xxxxx # leancloud application app key
-  pageSize: 10 # comment list page size
-  avatar: mp # gravatar style https://valine.js.org/#/avatar
-  lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
-  placeholder: 填写QQ邮箱就会使用QQ头像喔~. # valine comment input placeholder (like: Please leave your footprints)
-  guest_info: nick,mail,link # valine comment header info (nick/mail/link)
-  recordIP: false # Record reviewer IP
-  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: /img/comment_bg.png # valine background
-  emojiCDN: //i0.hdslb.com/bfs/emote/ # emoji CDN
-  enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
-  requiredFields: nick,mail # required fields (nick/mail)
-  visitor: false
-  master:
-    - xxxxx
-  friends:
-    - xxxxxx
-  tagMeta: "博主,小伙伴,访客"
-  option:
-
-# waline - A simple comment system with backend support fork from Valine
-# https://waline.js.org/
-waline:
-  serverURL: # Waline server address url
-  bg: # waline background
-  pageview: false
-  meta: false # 归属地, 操作系统 前是否显示图标
-  imageUploader: true # 是否启用图片上传功能，默认开启，限制为 128kb 的 base64 图片
-  # 以下为可选配置，后续若有新增/修改配置参数可在此自行添加/修改
-  option:
-
-# Twikoo
-# https://github.com/imaegoo/twikoo
 twikoo:
   envId: https://twikoo.acgurl.link/.netlify/functions/twikoo
   region:
   visitor: true
   option:
 
-# Artalk
-# https://artalk.js.org/guide/frontend/config.html
-artalk:
-  server:
-  site:
-  visitor: false
-  option:
 
 # Chat Services
 # --------------------------------------
@@ -1206,7 +1162,7 @@ rightClickMenu:
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
-  enable: true
+  enable: false
   img: https://upload-bbs.miyoushe.com/upload/2023/09/03/125766904/ee23df8517f3c3e3efc4145658269c06_5714860933110284659.png
 
 # 动效
