@@ -2,6 +2,10 @@
 title: '[源码]随机图API及其源码分享'
 date: 2024-10-19 14:52:44
 tags:
+- 源码
+- php
+categories:
+- 源码
 ---
 <h2 style="" id="%E4%B8%80-%E6%A6%82%E8%BF%B0">一		概述</h2><p style="">这是一个简单的随机图API</p><ul><li><p style="">目前收图 910 (最近更新2024.5.19)</p></li><li><p style=""><code>原神</code>、<code>崩坏:星穹铁道</code>主题</p></li><li><p style="">上传至B站公共静态资源库</p></li><li><p style="">MySQL数据库存储图片链接</p></li><li><p style="">自动识别图片格式为<code>jpg</code>或<code>png</code></p></li><li><p style="">自适应识别用户端UA</p></li><li><p style="">多种返回方式<code>301跳转</code>、<code>不跳转直接返回图片</code>、<code>json</code></p></li></ul><h2 style="" id="%E4%BA%8C-%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95">二		使用方法</h2><p style=""><strong>仅支持 </strong><code>GET</code><strong> 方法</strong></p><p style="">下列参数均为可选项</p><blockquote><p style="">style</p></blockquote><ul><li><p style="">见图片样式</p></li></ul><blockquote><p style=""><strong>return</strong></p></blockquote><ul><li><p style="">json: 返回json</p></li><li><p style=""><s>img: 不跳转直接返回图片（已作废）</s></p></li><li><p style="">url: 301跳转至图片链接</p></li></ul><blockquote><p style="">JSON数据</p></blockquote><pre><code>{
 "url":"https://i0.hdslb.com/bfs/article/3538b2f3b8899b8f95161f4f0a6807433493083985480649.jpg",
