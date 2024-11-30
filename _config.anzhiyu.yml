@@ -586,7 +586,7 @@ sidebar:
   nav_menu_project: true
 
 # 文章h2添加分隔线
-h2Divider: false
+h2Divider: true
 
 # 表格隔行变色
 table_interlaced_discoloration: true
@@ -608,7 +608,7 @@ category_ui: # 留空或 index
 tag_ui: # 留空或 index
 
 # Footer Background
-footer_bg: false
+footer_bg: true
 
 # the position of bottom right button/default unit: px (右下角按钮距离底部的距离/默认单位为px)
 rightside-bottom: 100px
@@ -644,14 +644,14 @@ canvas_nest:
 # Typewriter Effect (打字效果)
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: false
+  enable: true
   colorful: true # open particle animation (冒光特效)
   shake: false #  open shake (抖动特效)
-  mobile: false
+  mobile: true
 
 # Mouse click effects: fireworks (鼠标点击效果: 烟火特效)
 fireworks:
-  enable: false
+  enable: true
   zIndex: 9999 # -1 or 9999
   mobile: false
 
@@ -845,7 +845,7 @@ centerConsole:
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
     sort_order: # Don't modify the setting unless you know how it works
     highlightTags:
       # - Hexo
@@ -920,7 +920,7 @@ note:
 icons:
   ali_iconfont_js: # 阿里图标symbol 引用链接，主题会进行加载 symbol 引用
   fontawesome: true #是否启用fontawesome6图标
-  fontawesome_animation_css: #fontawesome_animation 如果有就会加载，示例值：https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css
+  fontawesome_animation_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css
 
 # other
 # --------------------------------------
@@ -937,7 +937,7 @@ pjax:
 # Inject the css and script (aplayer/meting)
 aplayerInject:
   enable: true
-  per_page: true
+  per_page: false
 
 # Snackbar (Toast Notification 弹窗)
 # https://github.com/polonel/SnackBar
