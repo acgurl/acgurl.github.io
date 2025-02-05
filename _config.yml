@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.acgurl.link/
+url: https://www.acgurl.link/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,7 +103,7 @@ theme: anzhiyu
 
 swpp:
   # 是否启用插件
-  enable: true
+  enable: false
   # 是否在发布前自动执行脚本
   auto_exec: false
   
