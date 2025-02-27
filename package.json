@@ -16,7 +16,7 @@
     "@fortawesome/fontawesome-free": "^6.6.0",
     "hexo": "^7.3.0",
     "hexo-algolia": "^1.3.2",
-    "hexo-bilibili-bangumi": "^1.10.7",
+    "hexo-bilibili-bangumi": "^1.10.8",
     "hexo-butterfly-envelope": "^1.0.15",
     "hexo-fontawesome": "^2.4.0",
     "hexo-generator-archive": "^2.0.0",
