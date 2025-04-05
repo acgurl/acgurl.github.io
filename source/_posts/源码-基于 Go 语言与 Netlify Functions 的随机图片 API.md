@@ -1,5 +1,5 @@
 ---
-title: '[源码]随机图API及其源码分享'
+title: '[源码]基于 Go 语言与 Netlify Functions 的随机图片 API'
 date: 2025-2-12 14:52:44
 tags:
 - 源码
