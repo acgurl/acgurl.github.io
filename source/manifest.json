@@ -1,0 +1,49 @@
+{
+    "name": "ACGURL",
+    "short_name": "ACGURL",
+    "theme_color": "#006a73",
+    "background_color": "#006a73",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/",
+    "id": "/",
+    "icons": [
+      {
+        "src": "/logo/16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/logo/16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/logo/32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/logo/32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/logo/180.png",
+        "sizes": "180x180",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/logo/180.png",
+        "sizes": "180x180",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+    ],
+    "splash_pages": null
+}
