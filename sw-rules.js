@@ -1,10 +1,6 @@
 module.exports.config = {
   /** @type {?ServiceWorkerConfig|boolean} */
-  serviceWorker: {
-    escape: 1,
-    cacheName: 'SolitudeCache',
-    debug: false,
-  },
+  serviceWorker: false, // 已关闭 Service Worker
   register: {
     onsuccess: undefined,
     onerror: () =>
