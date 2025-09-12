@@ -223,11 +223,6 @@ page:
     # 未设置封面时的默认图片
     cover:
        - https://api.acgurl.link/img?type=ysh&style=.webp
-       - https://api.acgurl.link/img?type=ysh&style=.webp
-       - https://api.acgurl.link/img?type=ysh&style=.webp
-       - https://api.acgurl.link/img?type=ysh&style=.webp
-       - https://api.acgurl.link/img?type=ysh&style=.webp
-       - https://api.acgurl.link/img?type=ysh&style=.webp
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -238,11 +233,6 @@ post:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-       - https://api.acgurl.link/img?type=ysh&style=.webp
-       - https://api.acgurl.link/img?type=ysh&style=.webp
-       - https://api.acgurl.link/img?type=ysh&style=.webp
-       - https://api.acgurl.link/img?type=ysh&style=.webp
-       - https://api.acgurl.link/img?type=ysh&style=.webp
        - https://api.acgurl.link/img?type=ysh&style=.webp
     # Location
     # 位置
