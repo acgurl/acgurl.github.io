@@ -29,24 +29,7 @@ module.exports.config = {
   /** @type {?DomConfig|boolean} */
   dom: {
     /** @type {?VoidFunction} */
-    onsuccess: () => {
-      caches
-        .match('https://id.v3/')
-        .then((res) => {
-          if (res)
-            res.json().then((json) => {
-              utils &&
-                utils.snackbarShow(
-                  `已刷新缓存，更新为${json.escape + '.' + json.global + '.' + json.local
-                  }版本最新内容`,
-                  false,
-                  2500
-                );
-            });
-          else console.info('未找到缓存');
-        })
-        .catch((error) => console.error('缓存匹配出错', error));
-    },
+    onsuccess: () => {},
   },
   /** @type {?VersionJsonConfig|boolean} */
   json: {
