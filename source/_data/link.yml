@@ -8,8 +8,13 @@
       avatar: https://yxyos.cn/upload/local/logo.png
       descr: 云溪起源Blog
       recommend: true
-    - name: 
+    - name: ArcticFox
       link: https://www.arcticfox.top/
       avatar: https://www.arcticfox.top/avatar.jpg
       descr: ArcticFox's Blog
+      recommend: true
+    - name: 小栋博客
+      link: https://blog.biekanle.com/
+      avatar: https://blog.biekanle.com/wp-content/uploads/thumb/2024/05/fill_w192_h192_g0_mark_62481ff7d04bee376f97a9beb597e5ce.webp
+      descr: 小栋博客
       recommend: true
