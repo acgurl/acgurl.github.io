@@ -3,14 +3,19 @@
   flink_style: anzhiyu
   hundredSuffix: ""
   link_list:
+    - name: 孤影墨香
+      link: https://www.iloli.xin/
+      avatar: https://i1.gymxbl.com/2019/11/logo-scaled-e1574260845661.png
+      descr: 秋
+      recommend: true
     - name: 云溪起源Blog
       link: https://yxyos.cn/
-      avatar: https://yxyos.cn/upload/local/logo.png
+      avatar: https://yxyos.cn/upload/user/avatar/76312330-1568-4049-9542-3f77a8b68b2d.png
       descr: 云溪起源Blog
       recommend: true
     - name: ArcticFox
       link: https://www.arcticfox.top/
-      avatar: https://www.arcticfox.top/avatar.jpg
+      avatar: https://www.arcticfox.top/image/author.png
       descr: ArcticFox's Blog
       recommend: true
     - name: 小栋博客
