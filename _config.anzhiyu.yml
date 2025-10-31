@@ -15,9 +15,6 @@ menu:
      #相册集: /album/ || anzhiyu-icon-images
      #小空调: /air-conditioner/ || anzhiyu-icon-fan
      
-   推广:
-     Evolution Host: https://evolution-host.com/ || anzhiyu-icon-rocket
-     
    关于:
      关于本人: /about/ || anzhiyu-icon-paper-plane
      闲言碎语: /essay/ || anzhiyu-icon-lightbulb
@@ -302,7 +299,7 @@ noticeOutdate:
 # Share.js
 # https://github.com/overtrue/share.js
 sharejs:
-  enable: false
+  enable: true
   sites: facebook,twitter,wechat,weibo,qq
 
 # AddToAny
@@ -399,9 +396,6 @@ footer:
       - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
         message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
-      - link: https://evolution-host.com/
-        shields: https://evolution-host.com/images/branding/newLogoBlack.png
-        message: 本站由Evolution Host提供支持
   socialBar:
     enable: true
     centerImg:
@@ -591,7 +585,7 @@ sidebar:
   nav_menu_project: true
 
 # 文章h2添加分隔线
-h2Divider: true
+h2Divider: false
 
 # 表格隔行变色
 table_interlaced_discoloration: true
@@ -961,7 +955,7 @@ instantpage: true
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之间添加空格)
 pangu:
-  enable: false
+  enable: true
   field: site # site/post
 
 # Lazyload (图片懒加载)
@@ -992,7 +986,7 @@ pwa:
 Open_Graph_meta: true
 
 # Add the vendor prefixes to ensure compatibility
-css_prefix: false
+css_prefix: true
 
 # 首页顶部相关配置
 home_top:
@@ -1229,7 +1223,7 @@ CDN:
     # pjax:
     # blueimp_md5:
     # valine:
-    twikoo: https://s4.zstatic.net/ajax/libs/twikoo/1.6.39/twikoo.all.min.js
+    twikoo: https://s4.zstatic.net/ajax/libs/twikoo/1.6.44/twikoo.all.min.js
     # waline_js:
     # waline_css:
     # sharejs:
