@@ -1,6 +1,6 @@
 - class_name: 关于页
   subtitle: 我等必将复起 古木已发新枝🌳
-  avatarImg: https://dogecloud.acgurl.link/logo/256.png
+  avatarImg: https://www.acgurl.link/img/pwa/512.png
   avatarSkills:
     left:
       - 🤖️ 数码科技爱好者
@@ -51,13 +51,13 @@
     selfInfoTips1: 生于
     selfInfoContentYear: 2007
     selfInfoTips2: 河南某县级重点高中
-    selfInfoContent2: 高二
+    selfInfoContent2: 高三
     selfInfoTips3: 现在职业
     selfInfoContent3: 学生👨‍🎓
   personalities:
     author_name: 调停者
     personality_type: INFP
-    photo_url: https://dogecloud.acgurl.link/xq/xqyzn.webp
+    photo_url: https://api.acgurl.link/img?type=xqh&style=.webp
     personality_img: https://wmimg.com/i/781/2024/10/671342d4165d4.png
     name_url: https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC
   maxim:
